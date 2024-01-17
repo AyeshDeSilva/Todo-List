@@ -49,7 +49,7 @@ app.post("/", (req, res) => {
 app.get("/work", (req, res) => {
 
 
-    res.render("index.ejs", {listTitle: "Work List", newListItems: workItems})
+    res.render("work.ejs", {listTitle: "Work List", newListItems2: workItems})
 });
 
 
